@@ -612,6 +612,7 @@ body {
         width: 100%; /* Ensure the container takes full width */
         max-width: 100%; /* Prevent it from expanding beyond full width */
         flex-wrap: nowrap; /* Prevent wrapping of items */
+        height:100%;
         
     }
 
