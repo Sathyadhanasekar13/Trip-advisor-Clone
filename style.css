@@ -211,56 +211,6 @@ body {
     margin-left: 10px;
 }
 
-.Fav-hotels h2,p{
-    margin-left: 10px;
-}
-
-.scroll-container {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch; /* Enables smooth scrolling on iOS */
-    display: flex;
-    justify-content: center; /* Center the content horizontally */
-}
-
-.Fav-hotels-container {
-    display: flex;
-    width: 100%; /* Ensure the container takes full width */
-    max-width: 100%; /* Prevent it from expanding beyond full width */
-    flex-wrap: nowrap; /* Prevent wrapping of items */
-}
-
-.Fav-hotels-item {
-    flex: 0 0 25%; /* Ensure each item takes up 25% of the container, showing 4 items at a time */
-    box-sizing: border-box;
-    padding: 10px;
-    text-align: center;
-    white-space: normal; /* Allows text to wrap within each item */
-}
-
-.Fav-hotels-item img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.Fav-hotels-item h3 {
-    margin: 10px 0;
-}
-
-.scroll-container::-webkit-scrollbar {
-    height: 8px; /* Custom scrollbar height */
-}
-
-.scroll-container::-webkit-scrollbar-thumb {
-    background: #ccc; /* Custom scrollbar thumb color */
-    border-radius: 4px;
-}
-
-.scroll-container::-webkit-scrollbar-track {
-    background: #f1f1f1; /* Custom scrollbar track color */
-}
-
-
 
 
 /*  Your recent searches */
@@ -538,60 +488,7 @@ body {
     padding: 10px; /* Adjust padding for smaller screens */
 }
 
-/* Fav Hotels */
-.Fav-hotels h2,
-    .Fav-hotels p {
-        margin-left: 5px; /* Reduce left margin */
-    }
-
-    .scroll-container {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch; /* Enables smooth scrolling on iOS */
-        display: flex;
-        justify-content: center; /* Center the content horizontally */
-    }
-
-    .Fav-hotels-container {
-        display: flex;
-        width: 100%; /* Ensure the container takes full width */
-        max-width: 100%; /* Prevent it from expanding beyond full width */
-        flex-wrap: nowrap; /* Prevent wrapping of items */
-    }
-
-    .Fav-hotels-item {
-        flex: 0 0 35%; /* Reduce item size to fit more items */
-        box-sizing: border-box;
-        padding: 5px; /* Reduce padding */
-        text-align: center;
-        white-space: normal; /* Allows text to wrap within each item */
-    }
-
-    .Fav-hotels-item img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-
-    .Fav-hotels h2,p{
-        font-size: 14px;
-    }
-    .Fav-hotels-item h3 {
-        margin: 5px 0; /* Reduce margin */
-        font-size: 10px; /* Reduce font size */
-    }
-
-    .scroll-container::-webkit-scrollbar {
-        height: 6px; /* Reduce scrollbar height */
-    }
-
-    .scroll-container::-webkit-scrollbar-thumb {
-        background: #ccc; /* Custom scrollbar thumb color */
-        border-radius: 3px; /* Reduce border radius */
-    }
-
-    .scroll-container::-webkit-scrollbar-track {
-        background: #f1f1f1; /* Custom scrollbar track color */
-    }
+/*-- Your recent searches --*/
 
     .recommended h2,
     .recommended p {
